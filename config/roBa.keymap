@@ -18,10 +18,6 @@
 #define JP_ASTERISK           DOUBLE_QUOTES     // *
 #define JP_GRAVE              LEFT_BRACE        // `
 #define JP_UNDERSCORE         LS(0x87)          // _
-#define JP_LEFT_PARENTHESISN  ASTERISK          // (
-#define JP_RIGHT_PARENTHESIS  LEFT_PARENTHESIS  // )
-#define JP_LEFT_BRACE         RIGHT_BRACE       // {
-#define JP_RIGHT_BRACE        PIPE              // }
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 5 250>; };
 
