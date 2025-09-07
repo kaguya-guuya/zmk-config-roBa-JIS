@@ -119,18 +119,18 @@
 
         NUM {
             bindings = <
-&kp F12  &kp F7     &kp F8  &kp F9  &kp LEFT_BRACE                                 &kp RIGHT_BRACE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS
-&kp F11  &kp F4     &kp F5  &kp F6  &kp LEFT_BRACKET      &trans      &trans       &kp RIGHT_BRACKET      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
-&kp F10  &kp F1     &kp F2  &kp F3  &kp LEFT_PARENTHESIS  &trans      &trans       &kp RIGHT_PARENTHESIS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp ASTERISK
+&kp F12  &kp F7     &kp F8  &kp F9  &kp JP_LBRACE                                 &kp JP_RBRACE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp JP_PLUS
+&kp F11  &kp F4     &kp F5  &kp F6  JP_LBRACKET      &trans      &trans       &kp JP_RBRACKET      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
+&kp F10  &kp F1     &kp F2  &kp F3  &kp JP_LPAREN  &trans      &trans       &kp JP_RPAREN  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp JP_ASTERISK
 &trans   &kp LCTRL  &trans  &trans  &trans                &trans      &lt 1 EQUAL  &kp PERIOD                                                                &kp SLASH
             >;
         };
 
         layer_3 {
             bindings = <
-&none   &none   &none   &none   &trans                           &trans        &kp AT_SIGN      &kp SEMICOLON      &kp COLON         &trans
-&none   &none   &none   &none   &trans  &trans      &trans       &trans        &kp PERCENT      &kp AMPERSAND      &kp SINGLE_QUOTE  &trans
-&none   &none   &none   &none   &trans  &trans      &trans       &trans        &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &trans
+&none   &none   &none   &none   &trans                           &trans        &kp JP_AT      &kp SEMICOLON      &kp JP_COLON         &trans
+&none   &none   &none   &none   &trans  &trans      &trans       &trans        &kp PERCENT      &kp JP_AMPERSAND      &kp SINGLE_QUOTE  &trans
+&none   &none   &none   &none   &trans  &trans      &trans       &trans        &kp EXCLAMATION  &kp JP_DQUOTE  &kp HASH          &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &lt 1 ENTER  &kp LEFT_ALT                                                        &trans
             >;
         };
