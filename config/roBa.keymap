@@ -33,8 +33,13 @@
         compatible = "zmk,combos";
 
         Layer_6 {
-            bindings = <&lt_to_layer_0 6 LEFT_WIN>;
+            bindings = <&mo 6>;
             key-positions = <0 9 39 40>;
+        };
+
+        SCROLL {
+            bindings = <&mo 5>;
+            key-positions = <0 1>;
         };
     };
 
@@ -63,10 +68,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp W      &kp E       &kp R    &kp T                                                                    &kp Y         &kp U  &kp I      &kp O    &kp P
-&kp A         &kp S      &kp D       &kp F    &kp G             &kp LS(LG(S))               &mt LANGUAGE_4 LANGUAGE_5  &kp H         &kp J  &kp K      &kp L    &kp MINUS
-&kp Z         &kp X      &kp C       &kp V    &kp B             &kp DELETE                  &kp BACKSPACE              &kp N         &kp M  &kp COMMA  &kp DOT  &kp BACKSLASH
-&kp LEFT_WIN  &kp LCTRL  &kp LSHIFT  &kp TAB  &lt 3 UNDERSCORE  &lt_to_layer_0 2 SPACE      &lt_to_layer_0 1 ENTER     &kp LEFT_ALT                             &kp SLASH
+&kp Q         &kp W      &kp E       &kp R    &kp T                                                           &kp Y         &kp U  &kp I      &kp O    &kp P
+&kp A         &kp S      &kp D       &kp F    &kp G             &kp LS(LG(S))      &mt LANGUAGE_4 LANGUAGE_5  &kp H         &kp J  &kp K      &kp L    &kp MINUS
+&kp Z         &kp X      &kp C       &kp V    &kp B             &kp DELETE         &kp BACKSPACE              &kp N         &kp M  &kp COMMA  &kp DOT  &kp BACKSLASH
+&kp LEFT_WIN  &kp LCTRL  &kp LSHIFT  &kp TAB  &lt 3 UNDERSCORE  &lt 2 SPACE        &lt 1 ENTER                &kp LEFT_ALT                             &kp SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -92,37 +97,37 @@
 
         layer_3 {
             bindings = <
-&none   &none   &none   &none   &trans                      &trans  &kp AT_SIGN      &kp SEMICOLON      &kp COLON         &trans
-&none   &none   &none   &none   &trans  &trans      &trans  &trans  &kp PERCENT      &kp AMPERSAND      &kp SINGLE_QUOTE  &trans
-&none   &none   &none   &none   &trans  &trans      &trans  &trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                        &trans
+&none   &none   &none   &none   &trans                           &trans        &kp AT_SIGN      &kp SEMICOLON      &kp COLON         &trans
+&none   &none   &none   &none   &trans  &trans      &trans       &trans        &kp PERCENT      &kp AMPERSAND      &kp SINGLE_QUOTE  &trans
+&none   &none   &none   &none   &trans  &trans      &trans       &trans        &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &lt 1 ENTER  &kp LEFT_ALT                                                        &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W &to_layer_0 E &to_layer_0 R &to_layer_0 T                     &to_layer_0 Y &to_layer_0 U   &to_layer_0 I   &to_layer_0 O   &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S &to_layer_0 D &to_layer_0 F &to_layer_0 G &trans      &trans  &to_layer_0 H &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&to_layer_0 Z  &to_layer_0 X &to_layer_0 C &to_layer_0 V &to_layer_0 B &trans      &trans  &to_layer_0 N &mkp MB4  &trans    &mkp MB5  &trans
-&trans         &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
+&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I      &to_layer_0 O  &to_layer_0 P
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &to_layer_0 H  &mkp MB1       &mkp MB3           &mkp MB2       &trans
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &mkp MB4       &to_layer_0 COMMA  &mkp MB5       &to_layer_0 BACKSLASH
+&trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                          &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans         &trans         &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &to_layer_0 J  &to_layer_0 K  &to_layer_0 L       &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &to_layer_0 M  &trans         &to_layer_0 PERIOD  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                    &trans
             >;
         };
 
         layer_6 {
             bindings = <
-&none  &none  &none  &none  &none                                &none         &none         &none         &none         &none
-&none  &none  &none  &none  &none  &none            &none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none  &none  &none  &none  &none  &bootloader      &bootloader  &none         &none         &none         &none         &bt BT_CLR
-&none  &none  &none  &none  &none  &none            &none        &none                                                   &bt BT_CLR_ALL
+&to_layer_0 ESCAPE  &none  &none  &none  &none                                &none         &none         &none         &none         &none
+&none               &none  &none  &none  &none  &none            &none        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&none               &none  &none  &none  &none  &bootloader      &bootloader  &none         &none         &none         &none         &bt BT_CLR
+&none               &none  &none  &none  &none  &none            &none        &none                                                   &bt BT_CLR_ALL
             >;
         };
     };
