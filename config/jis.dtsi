@@ -3,7 +3,7 @@
         JP_KP_NUMBER_2: jp_kp_number_2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N2>, <AT_SIGN>;     // 2 → @
+            bindings = <&kp N2>, <&kp AT_SIGN>;     // 2 → @
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
