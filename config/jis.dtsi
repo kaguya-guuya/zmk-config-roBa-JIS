@@ -10,7 +10,7 @@
         JP_KP_NUMBER_2: jp_kp_number_2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N2>, <&kp DOUBLE_QUOTES>;     // 2 → "
+            bindings = <&kp N2>, <&kp AT_SIGN>;     // 2 → @
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
@@ -59,14 +59,8 @@
         JP_KP_NUMBER_9: jp_kp_number_9 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp >, <&kp >; //  → 
+            bindings = <&kp N9>, <&kp RIGHT_PARENTHESIS>; // 9 → )
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-
-
-
-
-
-
     };
 };
