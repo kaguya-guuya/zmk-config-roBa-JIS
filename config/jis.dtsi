@@ -1,3 +1,24 @@
+#define JP_DQUOTE             AT_SIGN           // "
+#define JP_AMPERSAND          CARET             // &
+#define JP_APOSTROPHE         AMPERSAND         // '
+#define JP_EQUAL              UNDER             // =
+#define JP_CARET              EQUAL             // ^
+#define JP_YEN                0x89              // ¥
+#define JP_PLUS               COLON             // +
+#define JP_TILDE              PLUS              // ~
+#define JP_PIPE               LS(0x89)          // |
+#define JP_AT_SIGN            LEFT_BRACKET      // @
+#define JP_COLON              SINGLE_QUOTE      // :
+#define JP_ASTERISK           DOUBLE_QUOTES     // *
+#define JP_GRAVE              LEFT_BRACE        // `
+#define JP_UNDERSCORE         LS(0x87)          // _
+#define JP_LEFT_BRACKET       RIGHT_BRACKET     // [
+#define JP_RIGHT_BRACKET      BACKSLASH         // ]
+#define JP_LEFT_PARENTHESISN  ASTERISK          // (
+#define JP_RIGHT_PARENTHESIS  LEFT_PARENTHESIS  // )
+#define JP_LEFT_BRACE         RIGHT_BRACE       // {
+#define JP_RIGHT_BRACE        PIPE              // }
+
 / {
     behaviors {
         JP_KP_NUMBER_1: jp_kp_number_1 {
