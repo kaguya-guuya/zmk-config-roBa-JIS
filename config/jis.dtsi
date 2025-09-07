@@ -1,6 +1,6 @@
 / {
     behaviors {
-        JP_AT: jp_at {
+        JP_KP_NUMBER_2: JP_KP_NUMBER_2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
             bindings = <&kp N2>, <&kp AT>;  // USではShift+2で"@", JISではShift+2で"@"
