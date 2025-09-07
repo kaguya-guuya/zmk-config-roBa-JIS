@@ -31,7 +31,7 @@
 
         Layer_6 {
             bindings = <&lt_to_layer_0 6 LEFT_WIN>;
-            key-positions = <0 9 39 40 26>;
+            key-positions = <0 9 39 40>;
         };
     };
 
