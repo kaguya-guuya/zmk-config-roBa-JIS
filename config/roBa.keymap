@@ -61,8 +61,6 @@
     input-processors = <&zip_temp_layer 5 250>;
 };
 
-CONFIG_PMW3610_AUTOMOUSE_TIMEOUT_MS=100000
-
     keymap {
         compatible = "zmk,keymap";
 
