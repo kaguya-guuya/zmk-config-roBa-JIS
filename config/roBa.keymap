@@ -78,10 +78,10 @@
 
         default_layer {
             bindings = <
-&kp Q         &kp W      &kp E       &kp R    &kp T                                                                    &kp Y         &kp U  &kp I      &kp O    &kp P
-&kp A         &kp S      &kp D       &kp F    &kp G             &kp LS(LG(S))               &mt LANGUAGE_4 LANGUAGE_5  &kp H         &kp J  &kp K      &kp L    &kp MINUS
-&kp Z         &kp X      &kp C       &kp V    &kp B             &kp DELETE                  &kp BACKSPACE              &kp N         &kp M  &kp COMMA  &kp DOT  &kp BACKSLASH
-&kp LEFT_WIN  &kp LCTRL  &kp LSHIFT  &kp TAB  &lt 3 UNDERSCORE  &lt_to_layer_0 2 SPACE      &lt_to_layer_0 1 ENTER     &kp LEFT_ALT                             &kp SLASH
+&kp Q         &kp W      &kp E       &kp R    &kp T                                                                    &kp Y         &kp U  &kp I      &kp O       &kp P
+&kp A         &kp S      &kp D       &kp F    &kp G             &kp LS(LG(S))               &mt LANGUAGE_4 LANGUAGE_5  &kp H         &kp J  &kp K      &kp L       &JP_MINUS
+&kp Z         &kp X      &kp C       &kp V    &kp B             &kp DELETE                  &kp BACKSPACE              &kp N         &kp M  &JP_COMMA  &JP_PERIOD  &JP_BACKSLASH
+&kp LEFT_WIN  &kp LCTRL  &kp LSHIFT  &kp TAB  &lt 3 UNDERSCORE  &lt_to_layer_0 2 SPACE      &lt_to_layer_0 1 ENTER     &kp LEFT_ALT                                &JP_SLASH
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -99,15 +99,15 @@
         NUM {
             bindings = <
 &kp F12  &kp F7     &kp F8  &kp F9  &kp LEFT_BRACE                                 &kp RIGHT_BRACE        &JP_KP_NUMBER_7  &JP_KP_NUMBER_8  &JP_KP_NUMBER_9  &kp PLUS
-&kp F11  &kp F4     &kp F5  &kp F6  &kp LEFT_BRACKET      &trans      &trans       &kp RIGHT_BRACKET      &JP_KP_NUMBER_4  &JP_KP_NUMBER_5  &JP_KP_NUMBER_6  &kp MINUS
+&kp F11  &kp F4     &kp F5  &kp F6  &JP_LEFT_BRACKET      &trans      &trans       &JP_RIGHT_BRACKET      &JP_KP_NUMBER_4  &JP_KP_NUMBER_5  &JP_KP_NUMBER_6  &JP_MINUS
 &kp F10  &kp F1     &kp F2  &kp F3  &kp LEFT_PARENTHESIS  &trans      &trans       &kp RIGHT_PARENTHESIS  &JP_KP_NUMBER_1  &JP_KP_NUMBER_2  &JP_KP_NUMBER_3  &kp ASTERISK
-&trans   &kp LCTRL  &trans  &trans  &trans                &trans      &lt 1 EQUAL  &kp PERIOD                                                                &kp SLASH
+&trans   &kp LCTRL  &trans  &trans  &trans                &trans      &lt 1 EQUAL  &JP_PERIOD                                                                 &JP_SLASH
             >;
         };
 
         layer_3 {
             bindings = <
-&none   &none   &none   &none   &trans                      &trans  &kp AT_SIGN      &kp SEMICOLON      &kp COLON         &none
+&none   &none   &none   &none   &trans                      &trans  &kp AT_SIGN      &JP_SEMICOLON      &JP_COLON         &none
 &none   &none   &none   &none   &trans  &trans      &trans  &trans  &kp PERCENT      &kp AMPERSAND      &kp SINGLE_QUOTE  &none
 &none   &none   &none   &none   &trans  &trans      &trans  &trans  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH          &none
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                        &none
