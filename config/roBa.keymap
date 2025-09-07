@@ -8,6 +8,7 @@
 #define JP_DQUOTE             AT_SIGN           // "
 #define JP_AMPERSAND          CARET             // &
 #define JP_APOSTROPHE         AMPERSAND         // '
+#define JP_YEN                0x89              // ¥
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 5 250>; };
 
