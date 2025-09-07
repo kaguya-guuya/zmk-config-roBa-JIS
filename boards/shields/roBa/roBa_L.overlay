@@ -14,3 +14,13 @@
 &left_encoder {
     status = "okay";
 };
+
+#include <input/processors.dtsi>
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+        input-processors = <&zip_temp_layer 5 10000>;
+    };
+};
