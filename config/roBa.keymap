@@ -13,6 +13,7 @@
 #define JP_YEN                0x89              // ¥
 #define JP_PLUS               COLON             // +
 #define JP_TILDE              PLUS              // ~
+#define JP_PIPE               LS(0x89)          // |
 
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 5 250>; };
