@@ -70,26 +70,7 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        JP_MINUS: JP_MINUS {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp EQUAL>; // - → =
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
 
-        JP_SLASH: JP_SLASH {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp SLASH>, <&kp QUESTION>; // / → ?
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        JP_BACKSLASH: JP_BACKSLASH {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp BACKSLASH>, <&kp PIPE>; // \ → |
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
 
 
     };
