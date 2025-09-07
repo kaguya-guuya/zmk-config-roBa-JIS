@@ -14,7 +14,6 @@
 #define JP_TILDE              PLUS              // ~
 #define JP_AT_SIGN            LEFT_BRACKET      // @
 #define JP_COLON              SINGLE_QUOTE      // :
-#define JP_ASTERISK           DOUBLE_QUOTES     // *
 #define JP_LEFT_BRACKET       RIGHT_BRACKET     // [
 #define JP_RIGHT_BRACKET      BACKSLASH         // ]
 #define JP_LEFT_PARENTHESISN  ASTERISK          // (
