@@ -6,20 +6,6 @@
 #include "jis.dtsi"
 
 #define JP_DQUOTE             AT_SIGN           // "
-#define JP_AMPERSAND          CARET             // &
-#define JP_APOSTROPHE         AMPERSAND         // '
-#define JP_EQUAL              UNDER             // =
-#define JP_CARET              EQUAL             // ^
-#define JP_PLUS               COLON             // +
-#define JP_TILDE              PLUS              // ~
-#define JP_AT_SIGN            LEFT_BRACKET      // @
-#define JP_COLON              SINGLE_QUOTE      // :
-#define JP_LEFT_BRACKET       RIGHT_BRACKET     // [
-#define JP_RIGHT_BRACKET      BACKSLASH         // ]
-#define JP_LEFT_PARENTHESISN  ASTERISK          // (
-#define JP_RIGHT_PARENTHESIS  LEFT_PARENTHESIS  // )
-#define JP_LEFT_BRACE         RIGHT_BRACE       // {
-#define JP_RIGHT_BRACE        PIPE              // }
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 5 250>; };
 
