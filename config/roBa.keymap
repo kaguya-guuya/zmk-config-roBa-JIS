@@ -6,6 +6,8 @@
 #include "jis.dtsi"
 
 #define JP_DQUOTE             AT_SIGN           // "
+#define JP_AMPERSAND          CARET             // &
+#define JP_APOSTROPHE         AMPERSAND         // '
 
 &mkp_input_listener { input-processors = <&zip_temp_layer 5 250>; };
 
