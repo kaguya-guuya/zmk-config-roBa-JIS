@@ -62,5 +62,12 @@
             bindings = <&kp N9>, <&kp RIGHT_PARENTHESIS>; // 9 → )
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        JP_AT_SIGN: JP_AT_SIGN {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp AT_SIGN>, <&kp Grave>; // @ → `
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 };
