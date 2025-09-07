@@ -63,6 +63,13 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
+        JP_KP_NUMBER_0: jp_kp_number_0 {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp N0>, <&kp N0>; // 0 → 0
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
         JP_CARET: JP_CARET {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
