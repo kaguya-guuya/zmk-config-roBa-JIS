@@ -1,72 +1,9 @@
 / {
     behaviors {
-        JP_KP_NUMBER_1: jp_kp_number_1 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N1>, <&kp EXCLAMATION>;   // 1 → !
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         JP_KP_NUMBER_2: jp_kp_number_2 {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp N2>, <&kp AT_SIGN>;     // 2 → @
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        JP_KP_NUMBER_3: jp_kp_number_3 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N3>, <&kp HASH>;   // 3 → #
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        JP_KP_NUMBER_4: jp_kp_number_4 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N4>, <&kp DOLLAR>; // 4 → $
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        JP_KP_NUMBER_5: jp_kp_number_5 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N5>, <&kp PERCENT>; // 5 → %
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        JP_KP_NUMBER_6: jp_kp_number_6 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N6>, <&kp AMPERSAND>;  // 6 → &
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        JP_KP_NUMBER_7: jp_kp_number_7 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N7>, <&kp SINGLE_QUOTE>; // 7 → '
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        JP_KP_NUMBER_8: jp_kp_number_8 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N8>, <&kp LEFT_PARENTHESIS>; // 8 → (
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        JP_KP_NUMBER_9: jp_kp_number_9 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N9>, <&kp RIGHT_PARENTHESIS>; // 9 → )
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
-        JP_KP_NUMBER_0: jp_kp_number_0 {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&kp N0>, <kp N0>; //  → 0
+            bindings = <&kp N2>, <AT_SIGN>;     // 2 → @
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
